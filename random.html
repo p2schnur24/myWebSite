@@ -1,0 +1,39 @@
+<html>
+<head>
+<script languague = "JavaScript">
+var rand = -1;
+
+function random()
+{
+	
+	
+	var rand = -1;
+	
+	//rand = Math.random();// return a random decimal between 0 (inclusive) and 1 (exclusive)
+	
+	// To generate a random number, multiply Math.random() * # of options
+	// which results in a number between 0 and (options-1)
+	
+	rand = Math.random()*5; // multiply math.random by the NUM of OPTIONS4
+	// Math.floor truncates the decimal
+	rand = math.floor(rand);
+	
+	
+//alert (userQ.value.length) 
+if ( userQ.value.lengt == 0 ) // nothing is in question textbox
+{
+	myanswervalue = "please type a question first"; 
+	
+}
+
+</script>
+</head>
+<body>
+<center>
+<h1>Random Tester</h1>
+<input id="question" type="text" size="80" onfocusin = ()reset <br/><br/><br/>
+<input type="button" value="Click here" onClick="random()"/>
+
+</center>
+</body>
+</html>
